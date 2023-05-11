@@ -12,12 +12,14 @@ header {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  
- 
+
+
 }
+
 #searchplace {
   margin-right: 500px;
 }
+
 #selectedlist {
   font-weight: bold;
   text-decoration: underline red;
@@ -52,13 +54,16 @@ header {
   color: #fff;
   text-decoration: none;
 }
-li:hover{
+
+li:hover {
   transform: scale(1.15);
   color: #aeaeae;
 }
-li{
+
+li {
   transition: all 0.2s ease-in-out;
 }
+
 @media screen and (max-width: 820px) {
 
   #searchplace {
@@ -74,10 +79,11 @@ li{
     right: 50px;
     z-index: 2;
   }
+
   .menu li {
     margin: 20px 10px;
   }
-  
+
 
   .menu {
     display: flex;
@@ -110,6 +116,7 @@ li{
     transform: rotate(90deg);
   }
 }
+
 input {
   padding: 10px;
   border: 1px solid rgb(59, 59, 59);
