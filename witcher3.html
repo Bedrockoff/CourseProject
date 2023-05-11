@@ -27,6 +27,24 @@
       overflow-x: hidden;
       font-family: Nunito;
     }
+    body {
+    background: linear-gradient(to bottom, #000000, #960606);
+    background-size: 100% 200%;
+    background-attachment: fixed;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
 
     h1 {
       margin-top: -200px;
